@@ -1,5 +1,5 @@
-FROM busybox
+FROM busybox:latest
 
-ADD ./docker-entrypoint.sh /
+COPY ./docker-entrypoint.sh /
 ENTRYPOINT ["/docker-entrypoint.sh"]
 
