@@ -1,2 +1,2 @@
 # docker-logout
-output date every 3s
+output date and hostname every 3s
